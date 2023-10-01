@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './CardDetails.css';
 
-export default function CardDetailApp() {
+export default function CardDetailApp(props) {
   const [nameInput, setNameInput] = useState('');
   const [cardInput, setCardInput] = useState('');
   const [monthInput, setMonthInput] = useState('');
@@ -31,17 +31,17 @@ export default function CardDetailApp() {
       setErrorMessageCVC('');
     }
     if (
-      validateName() &&
-      validateCard() &&
-      validateMonth() &&
-      validateYear() &&
-      validateCVC()
-    ) {
-      setNameInput('');
-      setCardInput('');
-      setMonthInput('');
-      setYearInput('');
-      setCVCInput('');
+      validateName() && validateCard() && validateMonth() && validateYear() && validateCVC()){
+        props.setNameInput(nameInput);
+        props.setCardInput(cardInput);
+        props.setMonthInput(monthInput);
+        props.setYearInput(yearInput);
+        props.setCVCInput(cvcInput);
+        setNameInput('');
+        setCardInput('');
+        setMonthInput('');
+        setYearInput('');
+        setCVCInput('');
     }
   };
 
