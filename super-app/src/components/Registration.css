@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&family=Noto+Sans+JP:wght@200&family=Poiret+One&family=Roboto&family=Single+Day&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    width: 50%;
+    height: 100vh;
+  }
+  
+.content{
+    display: flex;
+}
+form{
+    color: white;
+    background-color: black;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.userDetails h1{
+    font-family: 'Single Day', cursive;
+    font-size: 50px;
+}
+.input{
+    width: 60%;
+    height: 50px;
+    margin:10px 0;
+    padding: 0 20px;
+}
+.checkbox-container input{
+    margin-top: 10px;
+    width: 15px;
+    height: 15px;
+}
+.checkbox-container{
+    width: 60%;
+    font-size: 20px;
+}
+p{
+    width: 60%;
+    font-weight: 400;
+}
+.errors{
+    color: red;
+    font-size: 15px;
+}
+p span{
+    color:#72DB73;
+}
+button{
+    width: 60%;
+    border: none;
+    border-radius: 25px;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    background-color: #72DB73;
+    margin: 20px 0;
+}
