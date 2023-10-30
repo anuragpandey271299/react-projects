@@ -26,6 +26,7 @@
 }
 #action, #thriller, #horror, #fantasy, #fiction, #drama{
     padding: 12px;
+    padding-top: 35px;
     border-radius: 15px;
     margin: 10px;
 }
@@ -36,7 +37,7 @@
     background-color: grey;
 }
 #thriller{
-    background-color:lightskyblue;
+    background-color:brown;
 }
 #horror{
     background-color: red;
@@ -56,9 +57,25 @@
     margin: 30px;
 }
 .genreFilm img.selected {
-    border: 10px solid green;
+    border: 10px solid yellow;
 }
 .wrapperGenre p{
     color: red;
+    height: 20px;
 }
-  
+.wrapperGenre h4{
+    color: white;
+    height: 20px;
+}
+.genreFilm{
+    display: flex;
+    position: relative;
+    width: 750px;
+    flex-wrap: wrap;
+}
+.genreFilm h3{
+    color: white;
+    position: absolute;
+    margin: 18px 30px;
+}
+
