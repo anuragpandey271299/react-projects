@@ -56,7 +56,7 @@
     margin: 30px;
 }
 .genreFilm img.selected {
-    border: 10px solid green; /* Customize the border style as needed */
+    border: 10px solid green;
 }
 .wrapperGenre p{
     color: red;
