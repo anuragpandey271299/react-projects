@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&family=Noto+Sans+JP:wght@200&family=Poiret+One&family=Roboto&family=Single+Day&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapperGenre{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.wrapperGenre h1{
+    font-family: 'Single Day', cursive;
+    color: green;
+    font-size: 80px;
+}
+.wrapperGenre h2{
+    color: white;
+}
+.wrapperGenre img{
+    width: 220px;
+    height:200px;
+}
+#action, #thriller, #horror, #fantasy, #fiction, #drama{
+    padding: 12px;
+    border-radius: 15px;
+    margin: 10px;
+}
+#action{
+    background-color: olivedrab;
+}
+#drama{
+    background-color: grey;
+}
+#thriller{
+    background-color:lightskyblue;
+}
+#horror{
+    background-color: red;
+}
+#fantasy{
+    background-color: palevioletred;
+}
+#fiction{
+    background-color: blueviolet;
+}
+.wrapperGenre button{
+    position: absolute;
+    width: 170px;
+    height: 60px;
+    right: 0;
+    bottom: 0;
+    margin: 30px;
+}
+.genreFilm img.selected {
+    border: 10px solid green; /* Customize the border style as needed */
+}
+.wrapperGenre p{
+    color: red;
+}
+  
