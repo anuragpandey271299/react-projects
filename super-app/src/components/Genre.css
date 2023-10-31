@@ -65,7 +65,8 @@
 }
 .wrapperGenre h4{
     color: white;
-    height: 20px;
+    height: 25px;
+    margin-top: 10px;
 }
 .genreFilm{
     display: flex;
@@ -77,5 +78,13 @@
     color: white;
     position: absolute;
     margin: 18px 30px;
+}
+.yes{
+    width: fit-content;
+    background-color: green;
+    border-radius: 10px;
+    height: 30px;
+    padding: 0 20px;
+    padding-bottom: 25px;
 }
 

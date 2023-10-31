@@ -43,7 +43,7 @@ export default function Genre() {
         <h1>Super app</h1>
         <h2>Choose your entertainment category</h2>
         <p>{errorMessage}</p>
-        <h4>{item.join('  ')}</h4>
+        <h4 className={item.length!==0?'yes':'no'}>{item.join('  ')}</h4>
       </div>
       <div className="genreFilm">
       <div>
