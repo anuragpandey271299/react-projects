@@ -32,11 +32,12 @@ export default function Genre() {
     if(selectedImages.length<3){
         setErrorMessage('Select atleast 3')
     }else{
-        navigate("/registration");
+        navigate("/info");
     }
     
   }
 
+  localStorage.setItem('imageID', JSON.stringify(item))
   return (
     <div className="wrapperGenre">
       <div>
