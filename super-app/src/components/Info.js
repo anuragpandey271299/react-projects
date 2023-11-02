@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import './Info.css'
 import dp from './images/dp.png'
+import { Navigate, useNavigate } from "react-router-dom";
 
 export default function Info() {
     const storedData = localStorage.getItem('userData');
@@ -47,6 +48,11 @@ export default function Info() {
                 setWeatherData(data);
             })
     }, []);
+
+    const navigate = useNavigate();
+    const Next=()=>{
+        navigate('/movies')
+    }
     
 
     return (
@@ -89,9 +95,9 @@ export default function Info() {
                     {newsData.urlToImage?(<img src={newsData.urlToImage}/>):(<div className="no-image">No Image Available</div>)}
                     <h3>{newsData.title}</h3>
                     <p>{newsData.description}</p>
-                    <a href={newsData.url} target="_blank">Read more</a>
+                    <a href={newsData.url} target="_blank">Read more</a><br/>
+                    <button onClick={Next}>Next</button>
             </div>
-            
         </div>
     );
 }

@@ -55,6 +55,7 @@
     right: 0;
     bottom: 0;
     margin: 30px;
+    background-color: green;
 }
 .genreFilm img.selected {
     border: 10px solid yellow;
