@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius+Unicase:wght@700&family=Noto+Sans+JP:wght@200&family=Poiret+One&family=Roboto&family=Single+Day&display=swap');
+
+.wrapperMovies{
+    background-color: black;
+    height: 100vh;
+}
+.wrapperMovies h1{
+    font-family: 'Single Day', cursive;
+    font-size: 50px;
+    color: green;
+}
+.wrapperMovies h2{
+    margin: 20px;
+    font-size: 30px;
+    color: white;
+}
+.movie img{
+    width: 150px;
+    height: 170px;
+    margin: 20px;
+}
+.genre-section{
+    display: flex;
+}

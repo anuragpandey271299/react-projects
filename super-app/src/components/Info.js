@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import './Info.css'
 import dp from './images/dp.png'
-import { Navigate, useNavigate } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Info() {
     const storedData = localStorage.getItem('userData');
@@ -17,11 +17,7 @@ export default function Info() {
     const hrs = date.getHours().toLocaleString('en-US', { minimumIntegerDigits: 2});
     const min = date.getMinutes().toLocaleString('en-US', { minimumIntegerDigits: 2});
 
-    
-
-
     const [newsData, setNewsData] = useState([]);
-
 
     useEffect(() => {
         const apiKey = '1fd3ef2ac027426e9ce7bf1922e4c2d5';

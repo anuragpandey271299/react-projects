@@ -4,6 +4,7 @@ import './App.css';
 import Registration from './components/Registration';
 import Genre from './components/Genre';
 import Info from './components/Info'
+import Movies from './components/Movies'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Route path='registration' Component={Registration}/>
         <Route path='genre' Component={Genre}/>
         <Route path='info' Component={Info}/>
+        <Route path='movies' Component={Movies}/>
       </Routes>
     </BrowserRouter>
   );

@@ -29,7 +29,7 @@
 }
 .newsData{
     width:calc(100vw - 800px);
-    margin: 15px;
+    margin-top: 15px;
 }
 .newsData img{
     width: 100%;
@@ -51,6 +51,7 @@
 }
 .newsData a{
     padding-left: 10px;
+    height: 500px;
 }
 .dateTime{
     background-color: palevioletred;
