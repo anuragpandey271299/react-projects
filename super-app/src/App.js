@@ -10,7 +10,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='registration' Component={Registration}/>
+        <Route path='/' Component={Registration}/>
         <Route path='genre' Component={Genre}/>
         <Route path='info' Component={Info}/>
         <Route path='movies' Component={Movies}/>

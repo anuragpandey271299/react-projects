@@ -3,11 +3,14 @@
 .wrapperMovies{
     background-color: black;
     height: 100vh;
+    width: fit-content;
 }
 .wrapperMovies h1{
     font-family: 'Single Day', cursive;
     font-size: 50px;
     color: green;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 .wrapperMovies h2{
     margin: 20px;
@@ -17,7 +20,8 @@
 .movie img{
     width: 150px;
     height: 170px;
-    margin: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 .genre-section{
     display: flex;
